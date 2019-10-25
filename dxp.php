@@ -6,11 +6,13 @@
  */
 
 // Hook Custom Updater
-new OSDXP_Dashboard\OsdxpModuleUpdateChecker(
-	OSDXP_LL_UPDATE_URL,
-	OSDXP_LL_PLUGIN_FILE,
-	OSDXP_LL_PLUGIN_SLUG
-);
+add_action('plugins_loaded', function () {
+	new OSDXP_Dashboard\OsdxpModuleUpdateChecker(
+		OSDXP_LL_UPDATE_URL,
+		OSDXP_LL_PLUGIN_FILE,
+		OSDXP_LL_PLUGIN_SLUG
+	);
+});
 
 // Change button text
 add_filter('osdxp_manage_button_module_osdxp-login-logo', function () {
