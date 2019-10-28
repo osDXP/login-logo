@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: osDXP Login Logo
+Plugin Name: Login Logo (osDXP)
 Description: Drop a PNG file named <code>login-logo.png</code> into your <code>wp-content</code> directory. This simple plugin takes care of the rest, with zero configuration. Transparent backgrounds work best. Crop it tight, with a width of 312 pixels, for best results.
 Version: 0.9.0-osdxp
 License: GPL
@@ -198,9 +198,9 @@ class CWS_Login_Logo_Plugin {
 if (defined('OSDXP_DASHBOARD_VER')) {
 	// Bootstrap
 	define('OSDXP_LL_PLUGIN_FILE', plugin_dir_path(__FILE__) . 'osdxp-login-logo.php');
-	define('OSDXP_LL_PLUGIN_NAME', 'osDXP Login Logo');
+	define('OSDXP_LL_PLUGIN_NAME', 'Login Logo (osDXP)');
 	define('OSDXP_LL_PLUGIN_SLUG', 'osdxp-login-logo');
-	define('OSDXP_LL_UPDATE_URL', '@TODO: ADD OSDXP.ORG URL');
+	define('OSDXP_LL_UPDATE_URL', 'https://osdxp.org/osdxp-login-logo.json');
 	define('OSDXP_LL_PLUGIN_BASENAME', plugin_basename(__FILE__));
 
     // Load osDXP Functionality.
