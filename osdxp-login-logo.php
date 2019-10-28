@@ -200,7 +200,7 @@ if (defined('OSDXP_DASHBOARD_VER')) {
 	define('OSDXP_LL_PLUGIN_FILE', plugin_dir_path(__FILE__) . 'osdxp-login-logo.php');
 	define('OSDXP_LL_PLUGIN_NAME', 'Login Logo (osDXP)');
 	define('OSDXP_LL_PLUGIN_SLUG', 'osdxp-login-logo');
-	define('OSDXP_LL_UPDATE_URL', 'https://osdxp.org/osdxp-login-logo.json');
+	define('OSDXP_LL_UPDATE_URL', 'https://osdxp.org/wp-content/module-update-info/osdxp-login-logo.json');
 	define('OSDXP_LL_PLUGIN_BASENAME', plugin_basename(__FILE__));
 
     // Load osDXP Functionality.
